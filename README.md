@@ -6,7 +6,7 @@ For: https://hub.docker.com/repository/docker/slashdoom/iperf3/general
 ### iperf3 Docker Build for Network Performance and Bandwidth Testing
 
 - Binaries and source code for the project can be found at https://downloads.es.net/pub/iperf/
-- A GitHub repo with the Dockerfile can be found at https://github.com/slashdoom/iperf3
+- A GitHub repo with the Dockerfile can be found at https://github.com/slashdoom/iperf3-docker
 
 ### Run the Docker Image and Show the iperf3 Options
     docker run -it --rm -p 5201:5201 slashdoom/iperf3 --help

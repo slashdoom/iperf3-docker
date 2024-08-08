@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 # Multistage build image
-FROM alpine:latest as build
-ARG IPERF3_VER=3.16
+FROM alpine:latest AS build
+ARG IPERF3_VER=3.17
 WORKDIR /src
 RUN apk --no-cache add make gcc g++ musl-dev binutils autoconf automake libtool pkgconfig check-dev file patch
 RUN apk --no-cache add curl
